@@ -1,0 +1,156 @@
+
+
+/*========================================
+Typography
+==========================================*/
+html {
+	color: none;
+	font-family: 'Nunito', sans-serif; Times New Roman;
+	margin-right: auto;
+	margin-left: auto;
+	width: 70%;
+}
+h1 {
+	color: #404040;
+	font-size: 3rem;
+	margin:0;
+	padding: 1rem;
+	text-align: center;
+
+
+}
+h2 {
+	font-size: 1rem;
+	font-weight: bold;
+	margin: 0;
+} 
+h3 {
+	font-size: 1rem;
+	margin-top: .25rem;
+}
+
+h4 {
+	margin: 0;
+}
+
+/*========================================
+Header
+==========================================*/
+header {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+.logo {
+	height: 2rem;
+	width: 4rem;
+}
+nav a:hover {
+	color: blue;
+}
+nav {
+	font-size: 13px;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+
+nav a {
+	color: #000000;
+	text-decoration: none;
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav li {
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 12px;
+}
+
+/*========================================
+Contact
+==========================================*/
+input, label, textarea {
+	display: block;
+	margin: .5rem;
+	padding: .5rem;
+}
+
+/*========================================
+Main
+==========================================*/
+main .library {
+	display: grid;
+	grid-gap: 3rem;
+	
+}
+
+img {
+	max-width: 100%;
+}
+
+.statement {
+	font-family:'Dancing Script', cursive;
+	font-size: 1.6rem;
+	text-align: center;
+}
+.project_img {
+	padding: .5rem;	
+}
+.products-item p {
+	line-height: 1;
+	margin: 0;
+}
+@media ( min-width: 530px ) {
+	.project_img {
+		display: grid;
+		grid-gap: 3rem;
+		grid-template-columns: 1fr 1fr;
+	}
+	
+}
+@media (min-width: 930px) {
+	.project_img {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+
+
+/*========================================
+Resume
+==========================================*/
+
+.resume-details {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-template-rows: auto;
+	
+}
+.skills {
+	margin-right: 5rem;
+
+}
+/*========================================
+Footer
+==========================================*/
+footer {
+	margin-top: 4rem;
+	padding: 20px;
+}
+.footer_nav a:hover {
+	color: blue;
+}
+.footer_nav {
+	font-size: 11px;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+.footer_nav li {
+	display: inline-block;
+	margin-left: 0px;
+	margin-right: 12px;
+}
+
